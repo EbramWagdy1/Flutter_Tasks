@@ -103,7 +103,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                       IconButton(
                         onPressed: () {
                           setState(() {
-                            if (index < images.length - 1) index++;
+                            if (index < images.length - 1){ index++;}
                           });
                         },
                         icon: Icon(Icons.arrow_forward_ios),
